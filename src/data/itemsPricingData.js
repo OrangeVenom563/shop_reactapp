@@ -1,0 +1,82 @@
+const itemsData = [
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Fancy Product",
+    currency: "$",
+    priceRange: { start: 40.00, end: 80.00 },
+    sale: false,
+    buyOptions: "View options",
+  },
+
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Special Item",
+    currency: "$",
+    MRP: 20.00,
+    sellingPrice: 18.00,
+    sale: true,
+    buyOptions: "Add to cart",
+    inCart: false,
+    rating: 5,
+  },
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Sale Item",
+    currency: "$",
+    MRP: 50.00,
+    sellingPrice: 25.00,
+    sale: true,
+    buyOptions: "Add to cart",
+    inCart: false,
+  },
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Popular Item",
+    currency: "$",
+    sellingPrice: 40.00,
+    buyOptions: "Add to cart",
+    inCart: false,
+    rating: 5,
+  },
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Sale Item",
+    currency: "$",
+    priceRange: { start: 50.00, end: 25.00 },
+    sale: true,
+    buyOptions: "Add to cart",
+    inCart: false,
+  },
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Fance Product",
+    currency: "$",
+    priceRange: { start: 120.00, end: 280.00 },
+    buyOptions: "Add to cart",
+    inCart: false,
+  },
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Special Item",
+    currency: "$",
+    MRP: 20.00,
+    sellingPrice: 18.00,
+    sale: true,
+    buyOptions: "Add to cart",
+    inCart: false,
+    rating: 5,
+  },
+  {
+    imageUrl: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    productName: "Popular Item",
+    currency: "$",
+    sellingPrice: 40.00,
+    buyOptions: "Add to cart",
+    inCart: false,
+    rating: 5,
+  },
+];
+
+export default itemsData;
+
+
